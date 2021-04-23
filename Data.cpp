@@ -11,7 +11,6 @@ std::pair<uint16_t, uint16_t> Data::DelData(const std::pair<uint16_t, uint16_t>&
 std::tuple<std::vector<std::size_t>, uint16_t, std::optional<uint16_t>> Data::ColumnPos(const std::vector<std::size_t>& AllPos, const std::tuple<uint16_t, uint16_t, uint16_t>& ColRowData, const std::optional<uint16_t>& CollumnChooseFull) //col f, row s, del in row
 {
 	//tuple - > Col,Rows,DelInRow
-
 	inputStream _inputStream;
 	outputStream _outputStream;
 	nValues _nVal;
