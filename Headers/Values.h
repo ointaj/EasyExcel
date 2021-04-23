@@ -29,7 +29,6 @@ public:
 	const std::string sNoDelimeter = "There wasnt find delimeter in the row ! ";
 	const std::string sNoSameCount = "There is no same count of delimeters in the rows ! Every row has to have same count of columns ! ";
 	const std::string sInputReFiVal = "Please enter replace/fill value: ";
-
 	const std::string sEnd = "PRESS ESC IF YOU WANT TO END THE PROGRAM ! ";
 
 	const std::string enterPath = "ENTER PATH TO YOUR FILE: ";
