@@ -19,8 +19,6 @@ void StartingThread::Start()
 		choose = StartingThread::End();
 	}
 	while (choose != nVal.END);
-
-
 }
 
 void StartingThread::Stop()
