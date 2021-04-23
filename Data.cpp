@@ -23,7 +23,6 @@ std::tuple<std::vector<std::size_t>, uint16_t, std::optional<uint16_t>> Data::Co
 	uint16_t mainCoulmsChoose{};
 	uint16_t workchooseInput{};
 	const auto oNullVal = std::nullopt;
-	
 	do
 	{
 		if (this->sameValue == _nVal.NullValue)
@@ -128,7 +127,7 @@ std::tuple<std::vector<std::size_t>, uint16_t, std::optional<uint16_t>> Data::Co
 						columnsValues.emplace_back(AllPos.at(spos));
 						return std::make_tuple(columnsValues,mainCoulmsChoose, RowChoose);
 					}
-					
+
 				}
 				return std::make_tuple(columnsValues, mainCoulmsChoose, oNullVal);
 			}
@@ -146,7 +145,7 @@ bool Data::isDigit(const std::string& sData)
 {
 	return std::all_of(sData.begin(), sData.end(), ::isdigit);
 }
- 
+
 uint32_t Data::chToUint(const std::string& sData)
 {
 	return std::stoi(sData);
